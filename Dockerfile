@@ -12,5 +12,5 @@ RUN apt-get update
 # Install the CS450 package
 RUN apt-get install -y loud-cs450-mpx
 
-# Source cs450-setup
-RUN echo ". cs450-setup" 
+# Install valgrind
+RUN apt-get install -y valgrind

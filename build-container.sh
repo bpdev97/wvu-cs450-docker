@@ -1,3 +1,3 @@
 #! /bin/bash
 
-docker build -t bpdev/wvu-cs450 .
+docker build -t bpdev97/wvu-cs450 .

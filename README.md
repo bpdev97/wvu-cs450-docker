@@ -16,6 +16,9 @@ Either run the following to pull the latest automated build of this image or run
 ### `mpx-make.sh`
 This script will make your project inside of your repo.
 
+### `mpx-make-clean.sh`
+This script will clean your project and then make.
+
 ### `mpx-run.sh`
 This script will run the make script and then start a container, in interactive mode, running your project.
 
@@ -25,5 +28,6 @@ This script will run gdb against your project inside of the container started by
 
 ## Useful aliases
 * `alias mpx-make="${HOME}/wvu-cs450-docker/mpx-make.sh"`
+* `alias mpx-make-clean="${HOME}/wvu-cs450-docker/mpx-make-clean.sh"`
 * `alias mpx-run="cd ${HOME}/wvu-cs450-docker; ${HOME}/wvu-cs450-docker/mpx-make-run.sh"`
 * `alias mpx-gdb="${HOME}/wvu-cs450-docker/mpx-gdb.sh"`
